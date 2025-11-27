@@ -69,3 +69,19 @@ footer{
     color:#FFFCE8;
     text-align: center;
 }
+
+
+.section_gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+    width:50%;
+    margin:auto;
+
+    
+    img{
+        width:100%;
+        box-sizing: border-box;
+    }
+
+}
