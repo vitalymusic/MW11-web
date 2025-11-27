@@ -1,0 +1,71 @@
+/* Elementu atlase */
+
+body{
+    background-color: #FFFCE8;
+    color:#3E363F;
+    margin:0px;
+}
+
+
+section{
+      background-color: #B8B42D;
+      margin: 50px;
+      padding: 20px;
+       width:50%;
+       margin:50px auto;
+       border-bottom:5px solid black;
+}
+
+section#sec1{
+
+    background-color: #B8B42D;
+    height: 300px;
+
+
+    h1{
+
+    }
+}
+section#sec2{
+    background-color: #697A21;
+     
+}
+section#sec3{
+    background-color: #DD403A;
+    width:50%;
+}
+
+
+img{
+    width:300px;
+    border:5px solid white;
+}
+
+nav{
+    padding: 20px;
+    background-color: #3E363F;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+
+    a{
+        color:white;
+        text-decoration: none;
+    }
+
+
+}
+
+
+header{
+
+
+}
+
+footer{
+    padding: 50px;
+    background-color: #3E363F;
+    color:#FFFCE8;
+    text-align: center;
+}
