@@ -78,10 +78,11 @@ footer{
     width:50%;
     margin:auto;
 
-    
+
     img{
         width:100%;
         box-sizing: border-box;
+        border-radius: 10px;
     }
 
 }
