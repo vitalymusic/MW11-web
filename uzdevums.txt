@@ -1,0 +1,5 @@
+Izveidot sāna joslu ar 3 hipersaitēm
+Izmantot:
+div, a
+css: position:absolute
+Pielāgot joslas dizainu lapas izskatam.
