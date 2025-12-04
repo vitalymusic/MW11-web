@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* google fonts */
+
+
 /* Elementu atlase */
 
 body{
@@ -85,4 +89,32 @@ footer{
         border-radius: 10px;
     }
 
+}
+
+
+
+/* Google fonts */
+/* Teksta noformēšana */
+
+body{
+    font-family: "Verdana", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:14pt;
+    text-indent: 1rem;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.481);
+    text-transform: uppercase;
+    text-decoration: underline wavy red 3px;
+    /* color:red; */
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+
+
+    
 }
