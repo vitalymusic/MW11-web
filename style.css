@@ -23,7 +23,7 @@ section{
 section#sec1{
 
     background-color: #B8B42D;
-    height: 300px;
+    /* height: 300px; */
 
 
     h1{
@@ -95,6 +95,10 @@ footer{
 
 /* Google fonts */
 /* Teksta noformēšana */
+html{
+    scroll-behavior: smooth;
+}
+
 
 body{
     font-family: "Verdana", sans-serif;
@@ -102,7 +106,19 @@ body{
     font-size:14pt;
     text-indent: 1rem;
     box-sizing: border-box;
+
+    /* Fona attēls */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/200/839/non_2x/music-note-png.png');
+    background-size: 50%;
+    background-position: left 350px;
+    background-repeat: no-repeat;
 }
+
+
+
+
+
+
 
 
 h1{
@@ -117,4 +133,29 @@ h1{
 
 
     
+}
+
+.izcelts{
+    text-decoration: underline wavy red 3px;
+}
+
+
+
+/* Pozicionēšana */
+
+#sec1{
+    position: static; 
+    /* noklusētā vērtība */
+
+    position: relative;
+    left:100px;
+    top:-50px;
+
+    
+}
+
+#sec2{
+    position: relative;
+    left:-100px;
+    /* top:50px; */
 }
