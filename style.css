@@ -195,6 +195,18 @@ aside{
 
 
 .chat{
-    
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius:  0px 10px 10px 0px;
+    box-shadow: 0px 0px 5px black;
+    position: fixed;
+    right:10px;
+    bottom:30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    /* width: 100px;
+    height:400px */
+    z-index: 1000;
 
 }
