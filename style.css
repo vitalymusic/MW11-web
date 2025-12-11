@@ -144,22 +144,22 @@ h1{
 /* Pozicionēšana */
 
 #sec1{
-    position: static; 
+    
     /* noklusētā vērtība */
 
     position: relative;
     left:100px;
-    top:-50px;
+    top:-50px; 
 
-    position: absolute;
+    /* position: absolute;
     top:10px;
     left:0px;
     z-index: 10;
 
 
-    position: fixed;
+    position: fixed; */
 
-
+    position: static; 
 
 }
 
@@ -220,4 +220,47 @@ aside{
         gap:20px;
     }
 
+}
+
+
+/* pseido klases */
+
+
+h1:hover{
+    color:pink;
+    font-size: 5rem;
+    transform:rotate(10deg);
+    transition:all 0.3s cubic-bezier(0,1.06,.67,1.43); 
+    transition:all 0.3s ease-in-out; 
+}
+
+h1:active{
+    color:blue;
+
+}
+
+form input:focus-visible, form textarea:focus-visible{
+    font-size: 1.5rem;
+    background-color: #3E363F;
+    color: #FFFCE8;
+
+}
+
+nav a:hover{
+    color:red;
+    transform: scale(1.2);
+    transition:all 0.5s cubic-bezier(0,1.06,.42,1.43); 
+}
+
+nav a{
+     transition:all 0.3s ease-in; 
+}
+
+.section_gallery img:hover{
+    transform: scale(1.5);
+    transition:all 0.5s cubic-bezier(0,1.06,.42,1.43); 
+
+}
+.section_gallery img{
+     transition:all 0.1s linear; 
 }
