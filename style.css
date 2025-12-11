@@ -265,6 +265,17 @@ nav a{
      transition:all 0.1s linear; 
 } */
 
+aside{
+    left:-100px;
+    transition: all .3s;
+}
+
+aside:hover{
+    left:0px;
+    transition: all .5s;
+}
+
+
 .section_gallery img:hover{-webkit-animation:flip-2-ver-left-2 .5s cubic-bezier(.455,.03,.515,.955) both;animation:flip-2-ver-left-2 .5s cubic-bezier(.455,.03,.515,.955) both}
 h1{-webkit-animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) infinite alternate-reverse both;animation:tracking-in-expand 1s cubic-bezier(.215,.61,.355,1.000) infinite alternate-reverse both}
 
