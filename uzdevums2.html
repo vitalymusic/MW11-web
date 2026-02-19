@@ -11,6 +11,7 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
         header {
@@ -27,35 +28,27 @@
             background: #24d680;
 
         }
+        
 
         div.container{
             height: 699px;
             background: #2c7aed;
-            padding-top: 52px;
+            display: flex;
 
-            h1{
-               
-                width: 870px;
-                height: 150px;
-                line-height: 150px;
-
-                background: #c421ed;
-
-                margin: auto;
-               
+            .left-sidebar, .right-sidebar{
+                  height: 699px;
+                  width: 10%;
+                  background-color: #c324d6;
 
             }
 
-            main{
-                /* Rectangle 4 */
-                width: 1262px;
-                height: 327px;
-                background: #a2f3f9;
-
-                margin: auto;
-                margin-top: 66px;
-                line-height: 327px;
+            .center-content{
+                height: 699px;
+                width: 80%;
+                /* background-color: #ccf306; */
             }
+
+            
 
 
         }
@@ -92,8 +85,9 @@
         Nav - #D9D9D9
     </nav>
     <div class="container">
-        <h1 class="text-format">H1 - #D9D9D9</h1>
-        <main class="text-format">Main - #A2F3F9</main>
+        <div class="left-sidebar"></div>
+        <div class="center-content"></div>
+        <div class="right-sidebar"></div>
     </div>
     <footer class="text-format">
         Footer - #D9D9D9
